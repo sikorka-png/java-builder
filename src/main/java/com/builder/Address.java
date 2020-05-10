@@ -1,3 +1,5 @@
+package com.builder;
+
 public class Address{
 
     private String street;

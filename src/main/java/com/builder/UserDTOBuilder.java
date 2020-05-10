@@ -1,3 +1,5 @@
+package com.builder;
+
 import java.time.LocalDate;
 
 public interface UserDTOBuilder {

@@ -1,3 +1,5 @@
+package com.builder;
+
 public interface UserDTO {
 
     public String getName();

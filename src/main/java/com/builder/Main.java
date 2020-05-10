@@ -1,3 +1,5 @@
+package com.builder;
+
 import java.time.LocalDate;
 
 public class Main {
@@ -21,8 +23,8 @@ public class Main {
     }
 
     public static UserDTO buildUserDTO(UserDTOBuilder builder, User user) {
-        //for given user a create UserDTO aUserDto
-        //problem: complex UserDTO object constructor
+        //for given user a create com.builder.UserDTO aUserDto
+        //problem: complex com.builder.UserDTO object constructor
         //method chaining
         return builder.withFirstName(user.getFirstName())
                 .withLastName(user.getLastName())
